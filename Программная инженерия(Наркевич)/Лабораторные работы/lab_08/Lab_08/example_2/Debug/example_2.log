@@ -1,0 +1,4 @@
+﻿  example_2.cpp
+example_2.obj : error LNK2019: ссылка на неразрешенный внешний символ "int __cdecl getSum(int,int)" (?getSum@@YAHHH@Z) в функции _main.
+example_2.obj : error LNK2019: ссылка на неразрешенный внешний символ "int __cdecl getMul(int,int)" (?getMul@@YAHHH@Z) в функции _main.
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Программная инженерия(Наркевич)\Лабораторные работы\lab_08(n)\Lab_08\Debug\example_2.exe : fatal error LNK1120: неразрешенных внешних элементов: 2

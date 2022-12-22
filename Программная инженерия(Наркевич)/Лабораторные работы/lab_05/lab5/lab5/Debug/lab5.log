@@ -1,0 +1,4 @@
+﻿  lab05.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Программная инженерия(Наркевич)\Лабораторные работы\lab_05\lab5\lab5\lab05.cpp(5,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Программная инженерия(Наркевич)\Лабораторные работы\lab_05\lab5\lab5\lab05.cpp(9,33): warning C4101: b1: неиспользованная локальная переменная
+  lab5.vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Программная инженерия(Наркевич)\Лабораторные работы\lab_05\lab5\Debug\lab5.exe

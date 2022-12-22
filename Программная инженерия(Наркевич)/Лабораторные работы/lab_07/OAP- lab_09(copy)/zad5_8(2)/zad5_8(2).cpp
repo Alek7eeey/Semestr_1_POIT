@@ -1,0 +1,37 @@
+#include <iostream>
+#include <ctime>
+using namespace std;
+
+void main()
+{
+	setlocale(LC_ALL, "Rus");
+	srand(time(NULL)); //c 1 января 1970 года, функция
+
+	int kol;
+	cout << "Введите количество элементов массива" << endl;
+	cin >> kol;
+	int* arr = new int[kol];
+
+	cout << "  " << endl; //пробел
+	cout << "Массив из " << kol << " элементов:" << endl;
+
+	for (int i = 0; i < kol; i++)
+	{
+		arr[i] = rand() % 99; //генератор/вывод случайных чисел, функция
+		cout << arr[i] << " ";
+	}
+
+	int l = 0;
+	for (int i = 0; i < kol-1; i++)
+	{
+		arr[i];
+		if (arr[i] > arr[i + 1])
+		{
+			l++;
+		}
+	}
+	cout << "  " << endl<<endl; //пробел
+	cout <<"Количество инверсий равно " << l << endl<<endl;
+
+
+}
