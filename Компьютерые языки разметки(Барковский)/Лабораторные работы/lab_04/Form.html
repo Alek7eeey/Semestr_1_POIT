@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .label {
+            display: inline-block;
+            width: 8em;
+            vertical-align: top;
+            text-align: left;
+            margin-right: 40px;
+            margin-left: 20px;
+        }
+        
+        form {
+            background-color: indigo;
+            padding-top: 5px;
+            height: 560px;
+            width: 500px;
+            margin-left: 500px;
+            margin-top: 100px;
+            color: rgba(255, 255, 255, 1);
+            font-size: 1.2em;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        input[type="text"],
+        input[type="email"] {
+            background-color: rgba(255, 255, 255, .5);
+            color: rgba(255,255,255,1), ;
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+        }
+        
+        input[type="submit"] {
+            background-color: navy;
+            box-shadow: 0 0 4px white;
+            color: rgba(255, 255, 255, 1);
+            
+            
+        }
+        
+        input[type="text"]:focus 
+        {
+            background-color: black;
+        }
+    </style>
+
+    <title>Form</title>
+    <meta content="Form">
+
+</head>
+
+
+<body>
+
+    <form>
+        <h2>Регистрация постоянного клиента</h2>
+        <p>
+            <label for="surname" class="label">Фамилия:</label>
+            <input required type="text" name="fio" id="surname">
+        </p>
+
+        <p>
+            <label for="name" class="label">Имя:</label>
+            <input required type="text" name="fio" id="name">
+        </p>
+
+        <p>
+            <label for="first_name" class="label">Отчество:</label>
+            <input required type="text" name="fio" id="first_name">
+        </p>
+
+        <p>
+            <label for="age" class="label">Ваш возраст</label>
+            <input required type="text" id="age">
+        </p>
+
+        <p>
+            <span class="label">Пол:</span>
+            <input required type="radio" name="men"><label for="var1">мужской</label>
+            <input required type="radio" name="women"><label for="var2">женский</label>
+        </p>
+
+        <p>
+            <label for="Email" class="label">Email:</label>
+            <input required type="email" id="Email">
+        </p>
+
+        <p>
+            <label for="country" class="label">Страна проживания:</label>
+            <input required type="text" name="fio" id="country">
+        </p>
+
+        <div title="Выберите вариант">
+            <p>
+                <label for="Email" class="label">Окуда вы узнали про нас?</label>
+                <select name="Откуда узнали" required>
+              <option value="1">От друзей</option>
+              <option value="1">Нашёл информацию в интернете</option>
+              <option value="1">Благодаря рекламе в лифте</option>
+              <option value="1">Благодаря рекламе на ТВ</option>
+                </select>
+            </p>
+        </div>
+
+        <p>
+            <label for="date" class="label">Дата заполнения:</label>
+            <input required type="date" id="date">
+        </p>
+
+        <p>
+            <label for="Регистрация" class="label"></label>
+            <input type="submit" name="Регистрация" value="Регистрация"></th>
+            <input type="submit" name="Отмена" value="Отмена"></th>
+        </p>
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>

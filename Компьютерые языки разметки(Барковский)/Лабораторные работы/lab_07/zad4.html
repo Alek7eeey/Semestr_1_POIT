@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Zad_4 </title>
+
+    <meta content="animation">
+<style>
+    
+  .box{
+      height: 450px;
+      width: 550px;
+      border: 5px ridge blue;
+      margin: 20px auto;
+      padding: 5px;
+      position: relative;  /*абсолютно позиционируемый элемент располагается по отношению к относительно позиционируемому элементу*/
+      display: block;
+      overflow: hidden;
+  }
+    
+    @keyframes anim{
+0%{ opacity: 0; } /*прозрачность*/
+
+20%{opacity: 1;}
+
+40%{ opacity: 0; }
+
+60%{ opacity: 0; }
+
+80%{ opacity: 0; }
+
+100% { opacity: 0; }
+
+
+    }
+    
+    .box img { position: absolute; /*absolute указывает на то, что вы хотите достать свой элемент из нормального потока, 
+        убрать занимаемое им место и сдвинуть его относительно ближайшего родительского элемента со свойством relative.*/
+         width: 98%;
+          opacity: 0;
+           animation-name: anim;
+            animation-duration: 25s; /*продолжительность анимации*/
+             transition-timing-function: linear; /*переход изменяется с постоянной скоростью*/
+             transition: 1s;
+              animation-iteration-count:infinite; /*бесконечная анимация*/
+        animation-direction: normal; /*воспроизведение с начала*/
+    }
+.box img:nth-child(1) { animation-delay: 0s; } /*задержка воспроизведения анимации*/
+.box img:nth-child(2) { animation-delay: 5s; }
+.box img:nth-child(3) { animation-delay: 10s; }
+.box img:nth-child(4) { animation-delay: 15s; }
+.box img:nth-child(5) { animation-delay: 20s; }
+
+@keyframes zagolovok
+    {
+        0%{opacity: 0%;}
+        100%{opacity: 80%;}
+    }
+
+    h1{
+        text-align: center;
+        font-family:'Lucida Sans Regular';
+        position: relative;
+        animation: zagolovok 3s linear infinite alternate
+    }
+    
+</style>
+</head>
+
+<body>
+    <h1>Задание номер четыре</h1>
+    <div class="box">
+        <img src="4-1.jpg" alt="photo1" height="450px" width="550px" >
+        <img src="4-2.jpg" alt="photo2" height="450px" width="550px" >
+        <img src="4-3.jpg" alt="photo3" height="450px" width="550px" >
+        <img src="4-4.jpeg" alt="photo4" height="450px" width="550px">
+        <img src="4-5.jpg" alt="photo5" height="450px" width="550px" >
+    </div>
+
+
+
+
+
+</body>
+</html>

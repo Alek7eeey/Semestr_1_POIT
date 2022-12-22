@@ -1,0 +1,93 @@
+
+@font-face{
+    font-family: you2013;
+    src: url(you2013.woff);
+}
+
+account{
+    background-color: aquamarine;
+    font-family: you2013;
+}
+
+name{
+display: block;
+border: 2px solid black;
+text-align:center;
+margin:10px 20px 0px 20px;
+margin-top:12pt;
+font-size:15pt;
+padding: 10px;
+background-color: aqua;
+}
+
+surname{
+
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:1px 20px 0px 20px;
+    font-size:15pt;
+    padding: 10px;
+
+}
+
+date_of_birth{
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:1px 20px 0px 20px;
+    font-size:15pt;
+    padding: 10px;
+    background-color: aqua;
+}
+
+country{
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:1px 20px 0px 20px;
+    font-size:15pt;
+    padding: 10px;
+}
+
+city{
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:1px 20px 0px 20px;
+    font-size:15pt;
+    padding: 10px;
+    background-color: aqua;
+}
+
+photos{
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:1px 20px 0px 20px;
+    font-size:15pt;
+    padding: 10px;
+    
+}
+
+telephone{
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:1px 20px 0px 20px;
+    font-size:15pt;
+    padding: 10px;
+    background-color: aqua;
+}
+
+email{
+
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:1px 20px 0px 20px;
+    font-size:15pt;
+    padding: 10px;
+
+}
+

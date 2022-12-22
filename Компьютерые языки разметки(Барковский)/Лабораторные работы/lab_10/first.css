@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+
+@font-face{
+    font-family: five;
+    src:url(five.woff);
+}
+.nav ul{
+    list-style-type: none;
+}
+
+.nav{
+    display: inline-block;
+}
+
+
+.nav a{
+    font-size: 2em;
+    color: rgb(0, 37, 14);
+    text-shadow: 3px 3px 2px white;
+    font-family: five;
+    text-decoration: none;
+    
+}
+
+.second a:hover{
+    background-color: white;
+}
+
+.media{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    float: right;
+}
+
+

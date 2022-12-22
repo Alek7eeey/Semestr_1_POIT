@@ -1,0 +1,13 @@
+
+table{
+    border-spacing: -10px;
+    border-collapse: collapse;
+}
+td,th{
+    padding: -15px;
+    margin: -15px;
+}
+
+.stroka {
+    background-color: burlywood;
+}

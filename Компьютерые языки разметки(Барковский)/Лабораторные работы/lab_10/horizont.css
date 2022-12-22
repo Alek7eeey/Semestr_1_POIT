@@ -1,0 +1,53 @@
+@font-face{
+    font-family: tangak;
+    src: url(tangak.woff);
+}
+
+ul{
+list-style-type: none;
+background-color: yellow;
+}
+
+ul .nav li{
+display: inline;
+
+}
+
+
+.nav ul:first-child{
+    border: 1px solid black;
+}
+
+.nav ul li a{
+    font-family: tangak; 
+    font-size: 2em;
+    color: rgb(0, 38, 255);
+    text-align: center;    
+    padding: 15px;
+    margin: 10px;
+}
+
+.second li a{
+    text-decoration: none;
+    display: inline-block; /*для плавающих элементов значение block*/
+   padding: 15px;
+     margin: 10px;
+     font-size: 2em;
+      color: rgb(0, 165, 88);
+       text-align: center;    
+       font-family: tangak; 
+}
+
+.second li {
+    display: inline;
+}
+
+
+
+
+.second li a:hover{
+  background-color: rgb(16, 0, 245);
+  color: white;
+  text-shadow: 3px 3px 2px brown;
+  
+}

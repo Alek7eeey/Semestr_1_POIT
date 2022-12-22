@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,h6{
+color:#9400D3;
+font-family: Monotype Corsiva;
+}
+
+.podpunct1{
+color: red;
+font-family: "times new roman";
+font-size: 18pt;
+}
+
+.podpunct2{
+color: yellow;
+font-family: "times new roman";
+font-size: 20pt;
+}
+
+.podpunct3{
+color: green;
+font-family: "times new roman";
+font-size: 22pt;
+}

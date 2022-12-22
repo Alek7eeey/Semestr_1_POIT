@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Zad_5 </title>
+
+    <meta content="animation">
+
+<style>
+    body{
+        background-color: bisque;
+    }
+    div{
+        text-align: center;
+        margin: 100px;
+        position: relative;
+        
+    }
+
+    @keyframes for_photo1
+    {
+        from{left: -100px;}
+        to{left: 100px;}
+    }
+    
+    @keyframes for_photo2
+    {
+        from{top: -100px;}
+        to{top: 100px;}
+    }
+    
+    @keyframes for_photo3
+    {
+        0% { left: -100px; top: 0; }
+        25% { left: -50px; top: 100px; }
+        50% { left: 0px; top: 0px; }
+        75% { left: 50px; top: 100px; }
+        100% { left: 100px; top: 0px; }
+    }
+    
+    @keyframes for_photo4
+    {
+        0% { left: -50px; top: 0; }
+        25% { left: 50px; top: 0; }
+        50% { left: 50px; top: 100px; }
+        75% { left: -50px; top: 100px; }
+        100% { left: -50px; top: 0; }
+ 
+    }
+
+        .n1
+        {
+            animation: for_photo1 6s linear infinite alternate;
+            position: relative;
+        }
+
+        .n2{
+            position: relative;
+            animation: for_photo2 6s linear infinite alternate;
+        }
+
+        .n3{
+            position: relative;
+            animation: for_photo3 6s linear infinite alternate;
+
+        }
+        
+        .n4{
+            position: relative;
+            animation: for_photo4 6s linear infinite normal;
+        }
+
+
+        @keyframes zagolovok
+    {
+        0%{opacity: 0%;}
+        100%{opacity: 80%;}
+    }
+
+    h1{
+        text-align: center;
+        font-family:'Lucida Sans Regular';
+        position: relative;
+        animation: zagolovok 3s linear infinite alternate
+    }
+
+
+</style>
+</head>
+
+    
+     <body>
+        <h1>Задание номер пять</h1>
+    <div class="n1"><img src="5-1.jpg" alt="Minsk" height="310px" width="480px"> <figcaption>По X</figcaption></div>
+    <div class="n2"><img src="5-1.jpg" alt="Minsk" height="310px" width="480px"><figcaption>По Y</figcaption></div>
+    <div class="n3"><img src="5-1.jpg" alt="Minsk" height="310px" width="480px"> <figcaption>CURVED LINE</figcaption></div>
+    <div class="n4"><img src="5-1.jpg" alt="Minsk" height="310px" width="480px"> <figcaption> SQUARE</figcaption></div>
+    
+    
+    
+    
+    </body>
+    </html>

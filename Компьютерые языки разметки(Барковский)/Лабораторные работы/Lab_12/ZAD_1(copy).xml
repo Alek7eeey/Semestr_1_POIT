@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?xml-stylesheet type="text/xsl" href="account.xsl"?>
+
+
+<list>
+  <account>
+  <id>1</id>
+  <name>Aleksey</name>
+  </account>
+
+  <account>
+  <id>3</id>
+  <name>Dmitry</name>
+  </account>
+
+  <account>
+  <id>2</id>
+  <name>Vadim</name>
+  </account>
+
+  <account>
+  <id>5</id>
+  <name>Alina</name>
+  </account>
+
+  <account>
+  <id>4</id>
+  <name>Arseniy</name>
+  </account>
+
+
+
+</list>
+

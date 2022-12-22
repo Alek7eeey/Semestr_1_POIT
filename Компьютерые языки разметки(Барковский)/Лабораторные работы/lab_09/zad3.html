@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta content="grid">
+    <title>lab9_3</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <style>
+        
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            grid-gap: 2px;
+            background-color: beige;
+            border: 4px ridge blueviolet;
+        }
+
+        .gallery_img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+        }
+
+        .gallery img:nth-child(odd) {
+        border: 1.5px ridge black;
+        text-align: center;
+        }
+
+        .gallery img:nth-child(even) {
+         text-align: center;
+         border: 1.5px ridge black;
+        }
+         
+        .gallery_item-1 {
+          grid-column: 1/2;
+          grid-row: 1/5;
+        }
+        
+        .gallery_item-2{
+            grid-column: 2/3;
+            grid-row: 1/5;
+        }
+
+        .gallery_item-3{
+            grid-column: 3/4;
+            grid-row: 1/5;
+        }
+
+        .gallery_item-4{
+            grid-column: 4/5;
+            grid-row: 1/5;
+        }
+
+        .gallery_item-5{
+            grid-column: 1/2;
+            grid-row: 5/9;
+        }
+
+        .gallery_item-6{
+            grid-column: 2/3;
+            grid-row: 5/9;
+        }
+
+        .gallery_item-7{
+            grid-column: 3/4;
+            grid-row: 5/9;
+        }
+
+        .gallery_item-8{
+            grid-column: 4/5;
+            grid-row: 5/9;
+        }
+        
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="gallery">
+        <figure class="gallery_item gallery_item-1">
+       <img src="1.jpg" class="gallery_img" alt="Image 1">
+        </figure>
+        <figure class="gallery_item gallery_item-2">
+       <img src="2.jpg" class="gallery_img" alt="Image 2">
+        </figure>
+        <figure class="gallery_item gallery_item-3">
+       <img src="3.jpg" class="gallery_img" alt="Image 3">
+        </figure>
+        <figure class="gallery_item gallery_item-4">
+       <img src="4.jpg" class="gallery_img" alt="Image 4">
+        </figure>
+        <figure class="gallery_item gallery_item-5">
+       <img src="5.jpg" class="gallery_img" alt="Image 5">
+        </figure>
+        <figure class="gallery_item gallery_item-6">
+       <img src="6.jpg" class="gallery_img" alt="Image 6">
+        </figure>
+        <figure class="gallery_item gallery_item-7">
+            <img src="7.jpg" class="gallery_img" alt="Image 7">
+             </figure>
+             <figure class="gallery_item gallery_item-8">
+                <img src="8.jpeg" class="gallery_img" alt="Image 8">
+                 </figure>
+      </div>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+tr:nth-of-type(1) th:nth-of-type(1) tr:nth-of-type(7) th:nth-of-type(1)
+{
+visibility: hidden;
+}
+
+table {
+    empty-cells: hide;
+    color: white;
+    border: none;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr {
+    border: 1px solid black;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+th {
+    font-size: 1.2em;
+    text-align: baseline;
+    background-color: darkblue;
+}
+
+.stolb {
+    color: black;
+}

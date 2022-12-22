@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?xml-stylesheet type="text/css" href="style_1.css"?>
+
+
+
+<account>
+
+<name>Алексей</name>
+<surname>Кравченко</surname>
+<date_of_birth>11.09.2003</date_of_birth>
+<country>Belarus</country>
+<city>Minsk</city>
+<photos>
+ <photo title="photo_1">Фото_1 = https://www.wallpaperflare.com/static/410/816/1012/adventuring-valley-nbc-tv-interview-wallpaper.jpg***</photo>
+ <photo title="photo_2">Фото_2 = https://proprikol.ru/wp-content/uploads/2019/08/kartinki-na-zadnij-fon-16.jpg***</photo>
+ <photo title="photo_3">Фото_3 = https://img.fonwall.ru/o/ij/bereg-morya-skala-derevya-les.jpg?route=mid&amp;h=750***</photo>
+
+ </photos>
+<telephone> +375445635869</telephone>
+<email>alekseykravcheno@gmail.com</email>
+
+</account>

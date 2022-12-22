@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Zad_1 </title>
+
+    <meta content="animation">
+<style>
+    
+    div{
+        text-align: center;
+        margin: 40px;
+        
+    }
+    .n1:hover{
+        transform: scale(0.5);
+        transition: 2s;
+    }
+    .n2:hover{
+        transform: rotate(45deg);
+        transition: 2s;
+    }
+    .n3:hover{
+        transform: translate(50px, 0px);
+        transition: 2s;
+    }
+    .n4:hover{
+        transform: rotate(-20deg);
+        transition: 2s;
+    }
+
+    body{
+        background-color: antiquewhite;
+    }
+    
+    @keyframes zagolovok
+    {
+        0%{opacity: 0%;}
+        100%{opacity: 80%;}
+    }
+
+    h1{
+        text-align: center;
+        font-family:'Lucida Sans Regular';
+        position: relative;
+        animation: zagolovok 3s linear infinite alternate
+    }
+
+    /*для лабораторной 9*/
+
+    ul.nav1 {
+    list-style-type: none;
+    }
+
+    ul.nav1 a {
+    display: block;
+    padding-bottom: 30px;
+    
+
+    }
+
+    .nav1{
+       height: 500px;
+       width: 110px;
+        background-color: rgb(177, 202, 194);
+        padding-top: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 1px dashed black;
+        float: left;  
+    }
+    
+    
+
+    ul.nav1 a.link1:link{
+        color: red;
+        text-decoration: none;
+    }
+    ul.nav1 a.link2:visited{
+        color: #8B0000;
+    }
+    ul.nav1 a.link3:hover{
+        color: green;
+    }
+    ul.nav1 a.link4:active{
+        color: rgb(184,134,11);
+    }
+  
+
+</style>
+</head>
+<body>
+
+
+    
+        <ul class="nav1">
+        <li><a href="C:\Users\aleks\OneDrive\Рабочий стол\studing\Компьютерые языки разметки(Барковский)\Лабораторные работы\lab_01\lab1-1.html" class="link1">Lab1_zad1</a></li>
+        <li><a href="C:\Users\aleks\OneDrive\Рабочий стол\studing\Компьютерые языки разметки(Барковский)\Лабораторные работы\lab_03\Text.html" class="link2">Lab3</a></li>
+        <li><a href="C:\Users\aleks\OneDrive\Рабочий стол\studing\Компьютерые языки разметки(Барковский)\Лабораторные работы\lab_04\TimeTable.html" class="link3">Lab4_zad1</a></li>
+        <li><a href="C:\Users\aleks\OneDrive\Рабочий стол\studing\Компьютерые языки разметки(Барковский)\Лабораторные работы\lab_05\block.html" class="link4">Block</a></li>
+        </ul>
+    
+
+        
+    <h1>Задание номер один</h1>
+    <div class="n1"><img src="1.jpg" alt="photo1" width="680" height="480"></div>
+    <div class="n2"><img src="2.jpg" alt="photo2" width="680" height="480"></div>
+    <div class="n3"><img src="3.jpg" alt="photo3" width="680" height="480"></div>
+    <div class="n4"><img src="4.jpg" alt="photo4" width="680" height="480"></div>
+
+</body>
+</html>

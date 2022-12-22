@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="att.xsl"?>
+<catalog>
+<cd>
+<name>Dima</name>
+<mark>10</mark>
+</cd>
+
+<cd>
+    <name>Kate</name>
+    <mark>7</mark>
+</cd>
+
+<cd>
+    <name>Maks</name>
+    <mark>3</mark>
+</cd>
+
+<cd>
+    <name>Tanya</name>
+    <mark>6</mark>
+</cd>
+
+<cd>
+    <name>Roman</name>
+    <mark>1</mark>
+</cd>
+
+<cd>
+    <name>Artem</name>
+    <mark>2</mark>
+</cd>
+
+<cd>
+    <name>Aleksey</name>
+    <mark>9</mark>
+</cd>
+</catalog>

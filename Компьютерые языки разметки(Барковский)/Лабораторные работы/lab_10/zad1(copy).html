@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+<meta charset="utf-8">
+<title>Lab10</title>
+
+<style>
+
+@import url(num_1.css) (min-device-width: 0px) and (max-device-width: 480px);
+@import url(num_2.css) (min-device-width: 480px) and (max-device-width: 768px);
+
+@media (min-device-width: 768px)
+{
+  body{background-color: rgb(234, 253, 218);}
+
+.container {
+display: flex;
+flex-flow: column wrap;
+align-items: stretch;
+justify-content: center;
+}
+
+.container_in
+{
+    flex-flow: column wrap;
+    border: 1px solid black;
+    text-align: center;
+    margin:3px;
+    flex-grow: 1;
+    
+  
+}
+
+.container_in_2{
+    display: flex;
+    flex-flow:row wrap ;
+    
+    
+}
+
+.container_in_3{
+    display: flex;
+    flex-flow:row wrap;
+}
+
+.container_in_3 section{
+    background-color: aquamarine;
+    
+}
+
+section{
+    border: 1px solid black;
+    margin: 3px;
+    display: flex;
+    flex-grow: 1;
+}
+
+figure {
+    background: #c8edff;
+    /* Цвет фона */
+    display: block;
+    /* Блочный элемент */
+    float: left;
+    /* Блоки выстраиваются по горизонтали */
+    text-align: center;
+    /* Выравнивание по центру */
+    padding: 10px;
+    border: 2px ridge blueviolet;
+}
+
+figcaption {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Цвет текста */
+    font-size: 3em;
+}
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+<div class="container_in">Заголовок</div>
+
+  <div class="container_in_2">
+<section>Ячейка 1</section>
+<section>Ячейка 2</section>
+<section>Ячейка 3</section>
+  </div>
+
+<div class="container_in_3">
+    <section>Доп.ячейка 1</section>
+    <section>Доп.ячейка 2</section>
+</div>
+</div>
+
+
+<figure>
+    <p>
+        <img src="2.jpg" height="250px" width="320px"> <img src="3.jpg" height="250px" width="320px"> 
+        <img src="5.jpg" height="250px" width="320px"> <img src="7.jpg" height="250px" width="320px">
+    </p>
+    <figcaption>Природа Беларуси</figcaption>
+</figure>
+
+
+
+</body>
+</html>

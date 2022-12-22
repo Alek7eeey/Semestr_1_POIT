@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?xml-stylesheet type="text/css" href="style_1.css"?>
+
+
+
+<account xmlns:xsi="http://www.w3.org/2001/X
+MLSchema-instance"
+xsi:noNamespaceSchemaLocation="note.xsd">
+
+<name>Алексей</name>
+<surname>Кравченко</surname>
+<date_of_birth>11.09.2003</date_of_birth>
+<country>Belarus</country>
+<city>Minsk</city>
+</account>
