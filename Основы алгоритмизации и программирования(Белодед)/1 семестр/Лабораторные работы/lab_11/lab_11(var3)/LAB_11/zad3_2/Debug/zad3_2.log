@@ -1,0 +1,5 @@
+﻿  zad3_2.cpp
+D:\Vika's lab\lab_11\LAB_11\zad3_2\zad3_2.cpp(9,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\Vika's lab\lab_11\LAB_11\zad3_2\zad3_2.cpp(51,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Vika's lab\lab_11\LAB_11\zad3_2\zad3_2.cpp(13,41): warning C4101: arrB_new: неиспользованная локальная переменная
+  zad3_2.vcxproj -> D:\Vika's lab\lab_11\LAB_11\Debug\zad3_2.exe

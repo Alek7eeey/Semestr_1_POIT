@@ -1,0 +1,4 @@
+﻿  semicircle.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_03\Дополнительно\semicircle\semicircle\semicircle.cpp(5,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  LINK : не найден или не выполнена сборка C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_03\Дополнительно\semicircle\Debug\semicircle.exe при последней инкрементной компоновке; выполняется полная компоновка
+  semicircle.vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_03\Дополнительно\semicircle\Debug\semicircle.exe

@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (examples.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  lab7_5_7.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_07(n)\lab7_5\examples\lab7_5_7.cpp(7,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_07(n)\lab7_5\examples\lab7_5_7.cpp(10,9): warning C4101: d: неиспользованная локальная переменная
+  examples.vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_07(n)\lab7_5\Debug\lab7_5_7.exe

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_04\lab_4\main2\Source.cpp(1,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_04\lab_4\main2\Source.cpp(5,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  main2.vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_04\lab_4\Debug\main2.exe

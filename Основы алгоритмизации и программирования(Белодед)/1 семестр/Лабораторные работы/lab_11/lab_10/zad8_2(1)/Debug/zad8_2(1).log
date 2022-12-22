@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (zad8_2(1).vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  zad8_2.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_11(n)\lab_10\zad8_2(1)\zad8_2.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  zad8_2(1).vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_11(n)\lab_10\Debug\zad8_2.exe

@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_04\dop_zadanie_del5\dop_zadanie_del5\main.cpp(21,6): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_04\dop_zadanie_del5\dop_zadanie_del5\main.cpp(30,6): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_04\dop_zadanie_del5\dop_zadanie_del5\main.cpp(40,6): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  dop_zadanie_del5.vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_04\dop_zadanie_del5\Debug\dop_zadanie_del5.exe

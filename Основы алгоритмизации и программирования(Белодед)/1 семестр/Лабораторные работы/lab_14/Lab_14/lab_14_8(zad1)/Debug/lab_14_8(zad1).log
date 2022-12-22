@@ -1,0 +1,4 @@
+﻿  zad8_1.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_14(n)\Lab_14\lab_14_8(zad1)\zad8_1.cpp(15,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_14(n)\Lab_14\lab_14_8(zad1)\zad8_1.cpp(17,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab_14_8(zad1).vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_14(n)\Lab_14\Debug\lab_14_8(zad1).exe

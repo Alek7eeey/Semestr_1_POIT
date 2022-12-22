@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (dop zadanie_lab3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_03\dop zadanie_lab3\dop zadanie_lab3\main.cpp(5,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  dop zadanie_lab3.vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_03\dop zadanie_lab3\Debug\dop zadanie_lab3(14).exe

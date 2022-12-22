@@ -1,0 +1,2 @@
+﻿While.obj : error LNK2005: _main уже определен в do_while.obj
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_05\examples\Циклы\Debug\Циклы.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

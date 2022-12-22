@@ -1,0 +1,33 @@
+﻿Сборка начата 18.09.2021 17:25:54.
+Уровень детализации журнала: Normal.     1>Проект "D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLAB_4_6\OAPLAB_4_2\OAPLAB_4_6.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (OAPLAB_4_2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Создание каталога "Debug\OAPLAB_4_6.tlog\".
+     1>InitializeBuildStatus:
+         Создание "Debug\OAPLAB_4_6.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt OAPLAB_4_2.cpp
+         OAPLAB_4_2.cpp
+     1>D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLAB_4_6\OAPLAB_4_2\OAPLAB_4_2.cpp(5,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLab_4_1\Debug\OAPLAB_4_6.exe" /INCREMENTAL /ILK:"Debug\OAPLAB_4_6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLab_4_1\Debug\OAPLAB_4_6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLab_4_1\Debug\OAPLAB_4_6.lib" /MACHINE:X86 Debug\OAPLAB_4_2.obj
+         OAPLAB_4_6.vcxproj -> D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLab_4_1\Debug\OAPLAB_4_6.exe
+       FinalizeBuildStatus:
+         Файл "Debug\OAPLAB_4_6.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\OAPLAB_4_6.tlog\OAPLAB_4_6.lastbuildstate".
+     1>Сборка проекта "D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLAB_4_6\OAPLAB_4_2\OAPLAB_4_6.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLAB_4_6\OAPLAB_4_2\OAPLAB_4_6.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (OAPLAB_4_2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLAB_4_6\OAPLAB_4_2\OAPLAB_4_6.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\1 курс\Основы алгоратмизации и програмирования Белодед\Лабораторные работы\ЛБ4(Белод.)\OAPLAB_4_6\OAPLAB_4_2\OAPLAB_4_2.cpp(5,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.73

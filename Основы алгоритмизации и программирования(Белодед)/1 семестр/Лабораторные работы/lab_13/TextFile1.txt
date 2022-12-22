@@ -1,0 +1,197 @@
+1 зад 4 вар
+#include <iostream>
+using namespace std;
+/*
+
+1. Написать программу, которая удаляет в строке все буквы b в тексте, написанном латинскими буквами.*/
+void main() {
+	setlocale(LC_ALL, "ru");
+	char string[] = "Hello, my name is Billi, anbd you?";
+	cout << string << endl;
+	for (int i = 0; i < strlen(string); i++)
+		if (string[i] == 'b' || string[i] == 'B')
+			for (int j = i; j < strlen(string); j++)
+				string[j] = string[j + 1];
+	cout << string;
+}
+
+2 зад 4 вар
+	
+#include <iostream>
+using namespace std;
+//2. Дана строка символов, состоящая из произвольных десятичных цифр, разделенных пробелами.Найти числа этой строки в порядке возрастания их значений
+void main() {
+	setlocale(LC_ALL, "ru");
+	char string[] = "24 4506 2443 89 4", strForNum[6];
+	int strNum[5];
+	for (int i = 0, Num = 0, count = 0; i < strlen(string); i += count + 1, count = 0, Num++) {
+		for (int j = i, m = 0; string[j] != ' ' /*|| string[j] != '\0'*/; j++, m++) {
+			strForNum[m] = string[j]; // Записываем числа в массив, который будем преобразоваовать в число
+			count++;
+			if (string[j + 1] == ' ' || string[j + 1] == '\0') { // Делаем до того , как следующее не будет пробелом или терминаторным нолем
+				strForNum[count] = '\0';
+				strNum[Num] = atoi(strForNum);
+				for (int k = 0; k < strlen(strForNum); k++)
+					strForNum[k] = '0'; // Очистка массива с числами
+				m = 0;
+			}
+			if (string[j + 1] == '\0')
+				break;
+		}
+	} // Окончание заполнения массива
+	int minNum = strNum[0];
+	int strNumChange[5];
+	int numberOfMin[5]; // Номера минимальных значений
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j < 5; j++) {
+			if (strNum[j] == numberOfMin[0] || strNum[j] == numberOfMin[1] || strNum[j] == numberOfMin[2] || strNum[j] == numberOfMin[3] || strNum[j] == numberOfMin[4])
+				continue;
+			else if (minNum >= strNum[j])
+				minNum = strNum[j];
+		}
+		numberOfMin[i] = minNum;
+		minNum = 5000;
+	}
+	cout << "Числа в порядке убывания: ";
+	for (int i = 0; i < 5; i++)
+		cout << numberOfMin[i] << " ";
+}
+
+1 зад доп зад 1
+
+#include <iostream>
+#include <windows.h>
+using namespace std;
+//1.	В заданной последовательности слов найти все слова, имеющие заданное окончание.
+void main() {
+	setlocale(LC_ALL, "rus");
+	SetConsoleOutputCP(1251);
+	SetConsoleCP(1251);
+	char string[] = " дома море земля баня добро озеро ";
+	char string_with_words_ending[30];
+	char ending;
+	bool active = false;
+	cout << "Введите окончание: "; cin >> ending;
+	for (int i = strlen(string) -1 , word = 0, letter = 0; i > -1; i -= word+1, word = 0) {
+		if (string[i] == ending && string[i+1] == ' ') {
+			for (int j = i; string[j] != ' '; j--)
+				word++;
+			for (int j = i - word + 1; j <= i; j++, letter++) {
+				string_with_words_ending[letter] = string[j];
+				if (j == i) 
+					string_with_words_ending[++letter] = ' ';	
+			}
+			for (int j = i - word; j > -1; j--) { // Модуль проверки: есть ли дальше слова с заданным окончанием
+				if (string[j] == ending && string[j + 1] == ' ') {
+					active = false;
+					break;
+				}
+				else
+					active = true;
+			}
+		}
+		if (active) {
+			string_with_words_ending[letter] = '\0'; // Если слов не будет дальше, то строка завершится
+			break;
+		}
+	}
+	cout << string_with_words_ending;
+	SetConsoleCP(866);
+}
+
+2 зад доп зад 4
+
+#include <iostream>
+#include <windows.h>
+using namespace std;
+//4.	Отредактировать заданное предложение, удаляя из него все слова
+//с нечетными номерами и переворачивая слова с четными номерами.Пример: HOW DO YOU DO преобразовать в OD OD.
+void main() {
+	setlocale(LC_ALL, "ru");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	char string[] = "HOW DO YOU DO";
+	int word = 0, letter = 0;
+	char string_with_change[25];
+	for (int i = 0, letterNum = 0; i < strlen(string); i += letter + 1, letter = 0) {
+		for (int j = i; ; j++) {
+			letter++;
+			if (string[j + 1] == ' ' || string[j + 1] == '\0') {
+				word++;
+				break;
+			}
+		}
+		if (word % 2 == 1)
+			continue;
+		else 
+			for (int j = i + letter - 1; j >= i; j--, letterNum++) {
+				string_with_change[letterNum] = string[j];
+				if (letter - 1 == letterNum)
+					string_with_change[++letterNum] = ' ';
+			}
+		if (word == 4) {
+			string_with_change[letterNum] = '\0';
+		}
+	}
+	cout << string_with_change;
+	SetConsoleCP(866);
+}
+
+3 зад доп 3
+#include <iostream>
+#include <windows.h>
+using namespace std;
+//3.	Из заданного предложения удалить те слова, которые уже встречались в предложении раньше.
+void main() {
+	setlocale(LC_ALL, "ru");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	char string[] = "завтра я поеду завтра домой, поэтому я очень рад, что завтра уже буду дома";
+	char word[10], words_for_equal[10];
+	bool active = false;
+	cout << "Начальная строка: " << string;
+	for (int i = 0, letter = 0, letterForEquals = 0; i < strlen(string); i += letter + 1, letter = 0) { // Модуль заполнения массива словом
+		for (int j = i; ; j++) {
+			word[letter] = string[j];
+			letter++;
+			if (string[j + 1] == ' ' || string[j + 1] == '\0') {
+				word[letter++] = '\0';
+				break;
+			}
+		}
+		for (int j = i + letter--; j < strlen(string); j++) { // Модуль заполнения следующими словами и проверки с предыдущим словом
+			if (string[j] == ' ' || string[j+1] == '\0' || string[j] == ',') {
+				if (letter != letterForEquals) {
+					letterForEquals = 0;
+					/*words_for_equal[letterForEquals + 1] = '\0';*/
+					continue;
+				}
+				for (int k = 0; k < letter; k++) { // it equals word
+					if (word[k] == words_for_equal[k])
+						active = true;
+					else {
+						active = false;
+						break;
+					}
+				}
+				if (active) {
+					for (int k = j - letter; k < j; k++) { // is deleting of word
+						string[k + 1] = ' ';
+						string[k] = string[k+1];
+					}
+					words_for_equal[letterForEquals] = '\0';
+					letterForEquals = 0;
+				}
+			}
+			words_for_equal[letterForEquals] = string[j];
+			letterForEquals++;
+			if (string[j + 1] == ' ' || string[j + 1] == '\0' || string[j + 1] == ',')
+		    	words_for_equal[letterForEquals] = '\0'; 
+			if (i > strlen(string) - 8)
+				cout << "Hello";
+		}
+	}
+	cout << endl << string << endl;
+	SetConsoleCP(866);
+	system("pause");
+}

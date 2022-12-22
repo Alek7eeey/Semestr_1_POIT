@@ -1,0 +1,20 @@
+﻿Сборка начата 19.09.2021 17:04:00.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_03\Потоковый\Heron's theorema\Heron's theorema\Heron's theorema.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Heron's theorema.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt "Heron's theorema.cpp"
+         Heron's theorema.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_03\Потоковый\Heron's theorema\Debug\Heron's theorema.exe" /INCREMENTAL /ILK:"Debug\Heron's theorema.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_03\Потоковый\Heron's theorema\Debug\Heron's theorema.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_03\Потоковый\Heron's theorema\Debug\Heron's theorema.lib" /MACHINE:X86 "Debug\Heron's theorema.obj"
+         Heron's theorema.vcxproj -> C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_03\Потоковый\Heron's theorema\Debug\Heron's theorema.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Heron's theorema.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Heron's theorema.tlog\Heron's theorema.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_03\Потоковый\Heron's theorema\Heron's theorema\Heron's theorema.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:03.80

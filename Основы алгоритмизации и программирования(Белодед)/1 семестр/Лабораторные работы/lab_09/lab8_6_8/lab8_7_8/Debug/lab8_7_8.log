@@ -1,0 +1,4 @@
+﻿  lab8_7_8cpp.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_08(n)\lab8_6_8\lab8_7_8\lab8_7_8cpp.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_08(n)\lab8_6_8\lab8_7_8\lab8_7_8cpp.cpp(9,18): warning C4305: инициализация: усечение из "double" в "float"
+  lab8_7_8.vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_08(n)\lab8_6_8\Debug\lab8_7_8.exe

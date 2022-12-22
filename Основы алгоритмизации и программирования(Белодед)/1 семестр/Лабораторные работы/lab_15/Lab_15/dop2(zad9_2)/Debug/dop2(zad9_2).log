@@ -1,0 +1,4 @@
+﻿  dop_2(zad9_2).cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_15(n)\Lab_15\dop2(zad9_2)\dop_2(zad9_2).cpp(12,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_15(n)\Lab_15\dop2(zad9_2)\dop_2(zad9_2).cpp(14,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  dop2(zad9_2).vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_15(n)\Lab_15\Debug\dop2(zad9_2).exe

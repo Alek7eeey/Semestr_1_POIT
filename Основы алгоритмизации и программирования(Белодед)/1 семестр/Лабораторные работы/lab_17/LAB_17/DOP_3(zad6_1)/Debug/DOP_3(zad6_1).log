@@ -1,0 +1,4 @@
+﻿  DOP_3(zad6_1).cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_17(n)\LAB_17\DOP_3(zad6_1)\DOP_3(zad6_1).cpp(36,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_17(n)\LAB_17\DOP_3(zad6_1)\DOP_3(zad6_1).cpp(38,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  DOP_3(zad6_1).vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_17(n)\LAB_17\Debug\DOP_3(zad6_1).exe

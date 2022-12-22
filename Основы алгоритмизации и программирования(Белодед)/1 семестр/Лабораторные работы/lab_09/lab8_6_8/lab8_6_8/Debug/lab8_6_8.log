@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (lab8_6_8(trapecia).vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  zad6_8.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_08(n)\lab8_6_8\lab8_6_8\zad6_8.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_08(n)\lab8_6_8\lab8_6_8\zad6_8.cpp(15,9): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_08(n)\lab8_6_8\lab8_6_8\zad6_8.cpp(30,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_08(n)\lab8_6_8\lab8_6_8\zad6_8.cpp(32,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_08(n)\lab8_6_8\lab8_6_8\zad6_8.cpp(36,12): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  lab8_6_8.vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_08(n)\lab8_6_8\Debug\lab8_6_8.exe

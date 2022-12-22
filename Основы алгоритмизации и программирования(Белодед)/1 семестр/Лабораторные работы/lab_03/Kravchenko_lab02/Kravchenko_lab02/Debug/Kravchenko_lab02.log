@@ -1,0 +1,14 @@
+﻿Сборка начата 18.09.2021 16:52:58.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_02\Kravchenko_lab02\Kravchenko_lab02\Kravchenko_lab02.vcxproj" в узле 1 (целевые объекты Build).
+     1>C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_02\Kravchenko_lab02\Kravchenko_lab02\Kravchenko_lab02.vcxproj : error MSB4025: не удалось загрузить файл проекта. Файл 'C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_02\Kravchenko_lab02\Kravchenko_lab02\Kravchenko_lab02.vcxproj' не найден.
+     1>Сборка проекта "C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_02\Kravchenko_lab02\Kravchenko_lab02\Kravchenko_lab02.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_02\Kravchenko_lab02\Kravchenko_lab02\Kravchenko_lab02.vcxproj" (целевой объект Build ) (1) ->
+         C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_02\Kravchenko_lab02\Kravchenko_lab02\Kravchenko_lab02.vcxproj : error MSB4025: не удалось загрузить файл проекта. Файл 'C:\Users\User\Desktop\основы алгоритмизации и программирования\lab_02\Kravchenko_lab02\Kravchenko_lab02\Kravchenko_lab02.vcxproj' не найден.
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00

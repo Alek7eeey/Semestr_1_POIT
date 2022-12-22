@@ -1,0 +1,151 @@
+Dop 1
+#include <iostream>
+#include <time.h>
+#include <iomanip>
+#include <windows.h>
+using namespace std;
+
+//////Доп 1. Дана квадратная матрица порядка 2n, элементы которой формируются случайным образом и находятся в пределах от 10 до 10. Получить новую матрицу, переставляя ее блоки размера n×n в соответствии со схемой.
+
+#define N 3
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "RUS");
+	int A[2 * N][2 * N], B1[N][N], B2[N][N], B3[N][N], B4[N][N], i, j, k, m;
+	srand((unsigned)time(NULL));
+
+	cout << "Начальный массив" << endl;
+	for (i = 0; i < 2 * N; i++)
+	{
+		for (j = 0; j < 2 * N; j++)
+		{
+			A[i][j] = rand() % 10 + 1;
+			cout << setw(2) <<  A[i][j] << "  "; // Заполнение матрицы
+		}
+		cout << "\n";
+	}
+	for (i = 0; i < N; i++)
+		for (j = 0; j < N; j++)
+			B1[i][j] = A[i][j];
+
+	for (i = 0; i < N; i++)
+		for (j = N, m = 0; j < 2 * N; j++, m++)
+			B2[i][m] = A[i][j];
+
+	for (i = N, k = 0; i < 2 * N; i++, k++)
+		for (j = N, m = 0; j < 2 * N; j++, m++)
+			B3[k][m] = A[i][j];
+
+	for (i = N, k = 0; i < 2 * N; i++, k++)
+		for (j = 0; j < N; j++)
+			B4[k][j] = A[i][j];
+
+	for (i = 0; i < N; i++)
+		for (j = 0; j < N; j++)
+			A[i][j] = B3[i][j];
+
+	for (i = 0; i < N; i++)
+		for (j = N, k = 0; j < 2 * N; j++, k++)
+			A[i][j] = B4[i][k];
+
+	for (i = N, k = 0; i < 2 * N; i++, k++)
+		for (j = N, m = 0; j < 2 * N; j++, m++)
+			A[i][j] = B1[k][m];
+
+	for (i = N, k = 0; i < 2 * N; i++, k++)
+		for (j = 0; j < N; j++)
+			A[i][j] = B2[k][j];
+
+	cout << "Массив после перестановки" << endl;
+	for (i = 0; i < 2 * N; i++)
+	{
+		for (j = 0; j < 2 * N; j++)
+			cout << setw(2) <<  A[i][j] << "  ";
+		cout << "\n";
+	}
+	    SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)2);
+		Sleep(100);
+		SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)-1);
+		Sleep(10000);
+	return 0;
+}
+
+dop 2
+
+#include <iostream>
+#include <ctime>
+//2. Латинским квадратом порядка n называется квадратная таблица размером nхn, каждая строка и каждый столбец 
+//которой содержат все числа от 1 до n.Для заданного n в матрице L(n, n) построить латинский квадрат порядка n.
+
+using namespace std;
+void main() {
+	setlocale(LC_ALL, "ru");
+	srand(time(NULL));
+	int matrix[20][20];
+	int n; 
+	cout << "n = "; cin >> n;
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			matrix[i][j] = rand() % (n-1)+1;
+			cout << matrix[i][j] << " ";
+			if (j + 1 == n)
+				cout << endl;
+		}
+	}
+}
+
+dop3 
+#include <iostream>
+#include <ctime>
+using namespace std;
+//3. Путем перестановки элем#ентов квадратной вещественной матрицы добиться того, чтобы ее максимальный элемент
+//находился в левом верхнем углу, следующий
+//по величине  в позиции(2, 2), следующий  в позиции(3, 3) и т.д., запол - нив таким образом всю главную диагональ.
+void main() {
+	setlocale(LC_ALL, "ru");
+	int matrix[5][5], max, maxNumbers[3];
+	srand(time(NULL));
+	for(int i = 0; i < 5; i++)
+		for (int j = 0; j < 5; j++) {
+			if (i == 0)
+				max = matrix[0][0];
+			matrix[i][j] = rand() % 50;
+			cout << matrix[i][j] << " ";
+			if (j + 1 == 5)
+				cout << endl;
+			if (max < matrix[i][j])
+				max = matrix[i][j];
+			if (i == 4 && j == 4) {
+				maxNumbers[0] = max;
+				matrix[0][0] = max;
+			}
+		}
+	cout << "\n\n\n";
+	for(int i = 0, max2 = -60; i < 5; i++)
+		for (int j = 0; j < 5; j++) {
+			if (matrix[i][j] != maxNumbers[0] && max2 < matrix[i][j])
+				max2 = matrix[i][j];
+			if (i == 4 && j == 4) {
+				maxNumbers[1] = max2;
+				matrix[1][1] = max2;
+			}
+		}
+	for(int i = 0, max3 = -60; i < 5; i++)
+		for (int j = 0; j < 5; j++) {
+			if (matrix[i][j] != maxNumbers[0] && matrix[i][j] != maxNumbers[1] && max3 < matrix[i][j])
+				max3 = matrix[i][j];
+			if (j == 4 && i == 4) {
+				maxNumbers[2] = max3;
+				matrix[2][2] = max3;
+			}
+		}
+	for(int i = 0; i < 5; i++)
+		for (int j = 0; j < 5; j++) {
+			cout << matrix[i][j] << " ";
+			if (j == 4) {
+				cout << endl;
+			}
+		}
+}

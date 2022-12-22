@@ -1,0 +1,4 @@
+﻿  dop_zad6_3.cpp
+C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_06\dop_zad6_2\dop_zadanie6_3\dop_zad6_3.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  LINK : не найден или не выполнена сборка C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_06\dop_zad6_2\dop_zadanie6_3\Debug\dop_zad6_3.exe при последней инкрементной компоновке; выполняется полная компоновка
+  dop_zadanie6_3.vcxproj -> C:\Users\aleks\OneDrive\Рабочий стол\studing\Основы алгоритмизации и программирования(Белодед)\Лабораторные работы\lab_06\dop_zad6_2\dop_zadanie6_3\Debug\dop_zad6_3.exe
